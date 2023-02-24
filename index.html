@@ -53,7 +53,7 @@
                             clients’ mobile storage instantly at a tap. It is quicker
                             than you think.
                         </p>
-                        <button class="btn btn-banner">Shop now <img src="./assets/img/nfc-icon.svg"></button>
+                        <a href="https://nfc.zeeqr.com/page/zeeqrsales" class="btn btn-banner">Shop now <img src="./assets/img/nfc-icon.svg"></a>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -76,7 +76,7 @@
                     <h2>How elegance<br>makes your<br>connection<br>stronger</h2>
                     <p class="max-para">NFC (Near Field Communication) - enabled business card is the game changer of
                         your business meetings.</p>
-                    <button class="btn btn-section mb-5 mb-md-0">Shop now <img src="./assets/img/nfc-icon.svg"></button>
+                    <a href="https://nfc.zeeqr.com/page/zeeqrsales" class="btn btn-section mb-5 mb-md-0">Shop now <img src="./assets/img/nfc-icon.svg"></a>
                 </div>
                 <div class="col-sm-4 col-xxl-4">
                     <div class="headFeature">Instant <img src="./assets/img/nfc-icon.svg" /></div>
@@ -142,8 +142,8 @@
         <div class="section">
             <div class="container">
             <h2 class="sectionHead">Why ZeeQR NFC Smart Business Card?</h2>
-            <div class="row g-5">
-                <div class="col-sm-12 col-md-4">
+            <div class="row g-5 owl-carousel owl-theme mt-5" id="owl-carousel4">
+                <div class="col-sm-12 item col-md-12">
                     <img class="iconBottom mx-auto d-block " src="./assets/img/instant-message.png" width="85">
                     <h4 class="text-column">Instant Sharing </h4>
                     <p class="justify-text mb-0">NFC business cards can be easily shared by tapping them against an NFC-enabled smartphone. This
@@ -151,7 +151,7 @@
                         without the need
                         for manual data entry. .</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 item col-md-12">
                     <img class="iconBottom mx-auto d-block" src="assets/img/secure-shield.png" width="85">
                     <h4 class="text-column">Secured </h4>
                     <p class="justify-text mb-0">The data stored on the NFC Business Card is encrypted. This can help to protect the data from
@@ -159,13 +159,31 @@
                         information is secure, and we never jeopardize the privacy of the user’s
                         information.</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 item col-md-12">
                     <img class="iconBottom mx-auto d-block" src="/assets/img/enhance.png" width="85">
                     <h4 class="text-column">Enhanced Engagement</h4>
                     <p class="justify-text mb-0">An NFC business card can be programmed with additional information, such as a link to your
                         website, social media profiles, or a promotional video. This can help to enhance engagement with
                         your brand and encourage potential clients to learn more
                         about your business.</p>
+                </div>
+                <div class="col-sm-12 item col-md-12">
+                    <img class="iconBottom mx-auto d-block" src="/assets/img/reputation-icon.svg" width="85">
+                    <h4 class="text-column">Reputable</h4>
+                    <p class="justify-text mb-0">ZeeQR NFC Smart Business Card makes sure that you are getting high-quality and secure components. It is always looking forward   to   connecting     technology      to 
+                        transform day to day activities of life.</p>
+                </div>
+                <div class="col-sm-12 item col-md-12">
+                    <img class="iconBottom mx-auto d-block" src="/assets/img/save-the-world.svg" width="85">
+                    <h4 class="text-column">Sustainable & Eco-Friendly</h4>
+                    <p class="justify-text mb-0">NFC business cards are more eco-friendly compared to traditional printed business cards. They eliminate the need for paper, ink, and other materials that contribute to waste and environmental pollution. And ZeeQR’s  NFC  Smart  Business  Card  can be
+                        reused any number of times.</p>
+                </div>
+                <div class="col-sm-12 item col-md-12">
+                    <img class="iconBottom mx-auto d-block" src="/assets/img/idea-icon.svg" width="85">
+                    <h4 class="text-column">Insightful </h4>
+                    <p class="justify-text mb-0">An NFC business card can be programmed to track user engagement, allowing you to measure the effectiveness of your marketing   campaigns    and   adjust  them
+                        accordingly.</p>
                 </div>
             </div>
         </div>
@@ -242,18 +260,18 @@
                             <div class="row g-5">
                                 <div class="col-sm-12 col-md-6">
                                     <div class="cardNfc">
-                                        <img src="assets/img/customizable-elastic-fabric-rfid-nfc-wristband.png">
+                                        <img src="assets/img/nfc_laundary.png">
                                     </div>
                                     <h5 class="txt-1">
-                                        nfc wristbands
+                                        nfc laundry tag
                                     </h5>
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <div class="cardNfc">
-                                        <img src="assets/img/Recovered.png">
+                                        <img src="assets/img/nfc_whindshild.png">
                                     </div>
                                     <h5 class="txt-1">
-                                        nfc key fob
+                                        nfc windshield tag
                                     </h5>
                                 </div>
                             </div>
@@ -309,7 +327,7 @@
                 <li><a href="#BENIFITS">BENIFITS</a></li>
                 <li><a href="#PROCESS">PROCESS</a></li>
                 <li class="pe-5 ps-5">
-                    <img src="/assets/img/zeeqr.png">
+                    <img src="/assets/img/zeeqr-logo.svg">
                 </li>
                 <li><a href="#METERIALS">METERIALS</a></li>
                 <li><a href="#LOG-IN">LOG-IN</a></li>
@@ -363,6 +381,15 @@
           items: 1,
           autoplay:true,
           dots:true
+        });
+
+        var owl = $('#owl-carousel4');
+        owl.owlCarousel({
+          margin: 60,
+          loop: true,
+          items: 3,
+          autoplay:true,
+          dots:false
         });
 
       </script>
